@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1619304410332" clover="3.2.0">
-  <project timestamp="1619304410332" name="All files">
+<coverage generated="1619306651772" clover="3.2.0">
+  <project timestamp="1619306651773" name="All files">
     <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1" elements="12" coveredelements="12" complexity="0" loc="7" ncloc="7" packages="1" files="1" classes="1"/>
     <file name="utils.ts" path="/Users/sgoldgar/Documents/zebra-takehome/src/components/utils/utils.ts">
       <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
