@@ -1,0 +1,30 @@
+@import (reference) '../utils/colors.less';
+
+.carrier-card-btn {
+  border-radius: 25px;
+  border: none;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  padding: 0.5em 1em;
+  max-height: 3em;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.carrier-card-btn p {
+  margin-left: 10px;
+}
+
+.carrier-card-btn.buy {
+  background: linear-gradient(350deg, #f87000 40%, #f8ae00 85%);
+}
+
+.carrier-card-btn.quote {
+  background: linear-gradient(350deg, #6169f4 40%, #1cbeec 85%);
+}

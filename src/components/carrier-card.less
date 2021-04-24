@@ -1,0 +1,91 @@
+@import (reference) './utils/colors.less';
+
+.carrier-card {
+  position: relative;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.carrier-card .carrier-main-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.carrier-card .carrier-info-container {
+  display: flex;
+}
+
+.carrier-card .carrier-logo {
+  position: relative;
+  z-index: 1;
+  margin-left: 3em;
+  height: 4.5em;
+  align-self: center;
+}
+
+.carrier-card .name-and-rating {
+  margin-left: 2em;
+}
+
+.carrier-card .name-and-rating .icons {
+  display: flex;
+  align-items: center;
+}
+
+.carrier-card .name-and-rating > p {
+  font-size: 1.75em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 0.75em;
+}
+
+.carrier-card .price-and-buy {
+  margin: 20px 0;
+}
+
+.carrier-card .price-and-buy .carrier-card-btn {
+  float: right;
+  margin-right: 20px;
+}
+
+.carrier-card .price-container {
+  display: flex;
+  align-self: center;
+  margin-right: 20px;
+  max-height: 50%;
+}
+
+.carrier-card .price-container .price-tag {
+  color: @zebraPurple;
+  font-size: 1em;
+  font-weight: bold;
+  margin-right: 10px;
+  padding-top: 5px;
+}
+
+.carrier-card .price-container > p {
+  margin-top: 0;
+}
+
+.carrier-card .price-container .dollar-sign {
+  font-size: 1.25em;
+}
+
+.carrier-card .price-container .price-amount {
+  font-size: 2.5em;
+  margin-top: -12px;
+}
+
+.carrier-card .price-container .per-month {
+  font-size: 1.25em;
+  margin-left: 10px;
+}
+
+.carrier-card .carrier-additional-details {
+  display: flex;
+  > div {
+    width: 48%;
+    margin: 0 5% 20px 5%;
+  }
+}
